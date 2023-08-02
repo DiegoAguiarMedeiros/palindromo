@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node index.ts",
+    "start:dev": "node index.ts --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^29.6.2"
+  }
+}
