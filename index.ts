@@ -2,8 +2,8 @@ const isPalindromo = (text: string): boolean => {
   if (text === "") return false;
   let reverseText = text.split("").reverse();
 
-  let textLowerCaseTrimmed = text.trim();
-  let reverseTextLowerCaseTrimmed = reverseText.join("").trim();
+  let textLowerCaseTrimmed = text.replaceAll(" ", "");
+  let reverseTextLowerCaseTrimmed = reverseText.join("").replaceAll(" ", "");
 
   return (
     textLowerCaseTrimmed.toLowerCase() ===
