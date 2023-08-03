@@ -23,3 +23,6 @@ test("Check if 'hello' is not a palindrome", () => {
 test("Check if 'A man, a plan, a canal, Panama!' is a palindrome", () => {
   expect(isPalindromo("A man a plan a canal Panama")).toBe(true);
 });
+test("Check if 'A man, a plan, a canal, Panama!' is a palindrome", () => {
+  expect(isPalindromo("A man, a plan, a canal, Panama!")).toBe(true);
+});
